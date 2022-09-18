@@ -1,0 +1,18 @@
+{
+  "name": "backend-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
